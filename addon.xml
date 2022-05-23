@@ -26,7 +26,7 @@
     <!-- <forum>https://forum.kodi.tv/showthread.php?tid=331129</forum> -->
     <website>https://play.swissinfo.ch/play/tv/</website>
     <source>https://github.com/goggle/plugin.video.swiplaytv</source>
-    <news></news>
+    <!-- <news></news> -->
     <assets>
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.png</fanart>
