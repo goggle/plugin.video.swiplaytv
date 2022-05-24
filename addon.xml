@@ -23,7 +23,7 @@
     <language>de</language>
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
-    <!-- <forum>https://forum.kodi.tv/showthread.php?tid=331129</forum> -->
+    <forum>https://github.com/goggle/plugin.video.swiplaytv/discussions</forum>
     <website>https://play.swissinfo.ch/play/tv/</website>
     <source>https://github.com/goggle/plugin.video.swiplaytv</source>
     <!-- <news></news> -->
