@@ -2,7 +2,7 @@
 <addon id="plugin.video.swiplaytv" name="SWI Play TV" version="2.1.0" provider-name="Alexander Seiler">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.srgssr" version="2.0.0"/>
+    <import addon="script.module.srgssr" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
