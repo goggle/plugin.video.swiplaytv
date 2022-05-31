@@ -124,8 +124,6 @@ def run():
         SWIPlayTV().build_menu_by_urn(name)
     elif mode == 200:
         SWIPlayTV().build_homepage_menu()
-    elif mode == 500:
-        SWIPlayTV().playback_not_supported_dialog(name)
     elif mode == 1000:
         SWIPlayTV().build_menu_apiv3(name, mode, page, page_hash)
 
