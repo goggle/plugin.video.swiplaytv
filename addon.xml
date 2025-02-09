@@ -2,7 +2,7 @@
 <addon id="plugin.video.swiplaytv" name="SWI Play TV" version="2.2.5" provider-name="Alexander Seiler">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.srgssr" version="2.2.4"/>
+    <import addon="script.module.srgssr" version="2.2.5"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -26,8 +26,9 @@
     <forum>https://github.com/goggle/plugin.video.swiplaytv/discussions</forum>
     <website>https://play.swissinfo.ch/play/tv/</website>
     <source>https://github.com/goggle/plugin.video.swiplaytv</source>
-    <news>v.2.2.5 (TBD)
-  - retrieve subtitles via HTTPS
+    <news>v.2.2.5 (2025-02-09)
+  - Retrieve subtitles via HTTPS
+  - Adapt to upstream changes
 
 v2.2.4 (2024-03-21)
  - Fix translatePath errors
