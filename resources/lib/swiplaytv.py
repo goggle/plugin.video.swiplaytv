@@ -99,31 +99,31 @@ def run():
             'Search',
             'SWI_YouTube'
         ]
-        SWIPlayTV().build_main_menu(identifiers)
+        SWIPlayTV().menu_builder.build_main_menu(identifiers)
     elif mode == 13:
-        SWIPlayTV().build_topics_menu()
+        SWIPlayTV().menu_builder.build_topics_menu()
     elif mode == 21:
-        SWIPlayTV().build_episode_menu(name)
+        SWIPlayTV().menu_builder.build_episode_menu(name)
     elif mode == 27:
-        SWIPlayTV().build_search_menu()
+        SWIPlayTV().menu_builder.build_search_menu()
     elif mode == 28:
-        SWIPlayTV().build_search_media_menu(
+        SWIPlayTV().menu_builder.build_search_media_menu(
             mode=mode, name=name, page=page, page_hash=page_hash)
     elif mode == 70:
-        SWIPlayTV().build_recent_search_menu()
+        SWIPlayTV().menu_builder.build_recent_search_menu()
     elif mode == 30:
-        SWIPlayTV().build_youtube_channel_overview_menu(33)
+        SWIPlayTV().youtube_builder.build_youtube_channel_overview_menu(33)
     elif mode == 33:
-        SWIPlayTV().build_youtube_channel_menu(
+        SWIPlayTV().youtube_builder.build_youtube_channel_menu(
             name, mode, page=page, page_token=page_hash)
     elif mode == 50:
-        SWIPlayTV().play_video(name)
+        SWIPlayTV().player.play_video(name)
     elif mode == 100:
-        SWIPlayTV().build_menu_by_urn(name)
+        SWIPlayTV().menu_builder.build_menu_by_urn(name)
     elif mode == 200:
-        SWIPlayTV().build_homepage_menu()
+        SWIPlayTV().menu_builder.build_homepage_menu()
     elif mode == 1000:
-        SWIPlayTV().build_menu_apiv3(name, mode, page, page_hash)
+        SWIPlayTV().menu_builder.build_menu_apiv3(name, mode, page, page_hash)
 
     xbmcplugin.setContent(int(sys.argv[1]), CONTENT_TYPE)
     xbmcplugin.addSortMethod(int(sys.argv[1]), xbmcplugin.SORT_METHOD_UNSORTED)
